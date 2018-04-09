@@ -1,0 +1,17 @@
+{
+    "name": "fabien/quete_composer",
+    "description": "quete composer",
+    "authors": [
+        {
+            "name": "Fabien Ente",
+            "email": "fab1wcs2018@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\wcs\\": "src/wcs/"}
+    }
+}
